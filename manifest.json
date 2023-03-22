@@ -1,7 +1,7 @@
 {
   "vendor": "boterosoto",
   "name": "advanced-search",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "title": "advanced-search",
   "description": "advanced search",
   "builders": {
@@ -16,9 +16,7 @@
     "vtex.search-page-context": "0.x",
     "vtex.css-handles": "0.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
