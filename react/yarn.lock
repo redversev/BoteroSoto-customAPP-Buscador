@@ -1871,10 +1871,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-"boterosoto.advanced-search@https://devmarmas--boterosoto.myvtex.com/_v/private/typings/linked/v1/boterosoto.advanced-search@0.0.0+build1678566995/public/@types/boterosoto.advanced-search":
-  version "0.0.0"
-  resolved "https://devmarmas--boterosoto.myvtex.com/_v/private/typings/linked/v1/boterosoto.advanced-search@0.0.0+build1678566995/public/@types/boterosoto.advanced-search#40213c7dd4963481efe8334bfd690e21d666d605"
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
