@@ -19,7 +19,6 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "boterosoto.advanced-search": "https://devmarmas--boterosoto.myvtex.com/_v/private/typings/linked/v1/boterosoto.advanced-search@0.0.0+build1678566995/public/@types/boterosoto.advanced-search",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime"
