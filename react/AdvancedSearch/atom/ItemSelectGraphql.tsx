@@ -2,17 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { useQuery } from 'react-apollo'
 import { useCssHandles } from 'vtex.css-handles'
 import CATEGORY_BY_ID from '../../graphql/categoryById.graphql'
-import { DataList } from '../../typings/type'
+import { DataList, DataQuery } from '../../typings/type'
 const CSS_HANDLES = [
     "selectListLi"
 ]
 interface Props {
     dataSelect: DataList
     onSelect: (data: DataList, href?:string) => void
-}
-interface DataQuery {
-    href:string
-    name:string
 }
 export const ItemSelectGraphql = ({dataSelect, onSelect}:Props) => {
     const handles = useCssHandles(CSS_HANDLES)

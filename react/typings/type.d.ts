@@ -1,13 +1,15 @@
+export interface DataQuery {
+    href:string
+    name:string
+}
 export interface DepartmentList {
-  departmentId: string;
-  departmentName: string;
   showBrand: ShowBrand;
   showAttribute: ShowAttribute;
   showType: ShowType;
 }
 
-interface ShowType {
-  additionalDef: string;
+export interface ShowType {
+  additionalDef?: string;
   departmentList?: DepartmentList[];
 }
 
@@ -16,8 +18,8 @@ interface DepartmentList {
   departmentName: string;
 }
 
-interface ShowAttribute {
-  additionalDef: string;
+export interface ShowAttribute {
+  additionalDef?: string;
   attributeList?: AttributeList[];
 }
 
@@ -30,8 +32,8 @@ interface AttributeSpecificationList {
   attributeSpecificationOriginalName: string;
 }
 
-interface ShowBrand {
-  additionalDef: string;
+export interface ShowBrand {
+  additionalDef?: string;
   brandList?: BrandList[];
 }
 

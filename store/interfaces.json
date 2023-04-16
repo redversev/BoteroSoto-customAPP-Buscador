@@ -1,5 +1,8 @@
 {
   "advanced-search": {
     "component": "AdvancedSearch"
+  },
+  "advanced-search-v2": {
+    "component": "AdvancedSearchV2"
   }
 }
